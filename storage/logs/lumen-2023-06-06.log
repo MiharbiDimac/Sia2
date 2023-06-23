@@ -1,0 +1,50 @@
+[2023-06-06 06:41:35] local.ERROR: Target class [App\Http\Controllers\UserJobController] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Http\\Controllers\\UserJobController] does not exist. at C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\Container.php:891)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\Container.php(770): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#1 C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\Container.php(706): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#2 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#3 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Http\\\\Contro...')
+#4 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#5 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#6 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#7 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#8 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#9 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#10 C:\\xampp\\htdocs\\sia_site2\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Http\\Controllers\\UserJobController\" does not exist at C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\Container.php:889)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\Container.php(889): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#1 C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\Container.php(770): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#2 C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\Container.php(706): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#3 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Application.php(327): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#4 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Http\\\\Contro...')
+#5 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#6 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#7 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#9 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 C:\\xampp\\htdocs\\sia_site2\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2023-06-06 06:42:43] local.ERROR: Class "App\Models\UserJob" not found {"exception":"[object] (Error(code: 0): Class \"App\\Models\\UserJob\" not found at C:\\xampp\\htdocs\\sia_site2\\app\\Http\\Controllers\\UserJobController.php:24)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\UserJobController->index()
+#1 C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\sia_site2\\vendor\\illuminate\\container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(391): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(356): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(331): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\UserJobController), 'index', Array)
+#8 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#11 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#13 C:\\xampp\\htdocs\\sia_site2\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#14 C:\\xampp\\htdocs\\sia_site2\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
